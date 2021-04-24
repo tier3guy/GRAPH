@@ -37,15 +37,14 @@ public:
 	}
 };
 
-int main(){/*
+int main(){
 	Graph g;
 	g.addEdge(1,2);
-	//g.addEdge(1,3);
+	g.addEdge(1,3);
 	g.addEdge(2,3);
 	g.addEdge(3,4);
 
-	cout << g.detect_Cycle(1) << endl;*/
-	cout << " Hello World !" << endl;
+	cout << g.detect_Cycle(1) << endl;
 
 	return 0;
 }
